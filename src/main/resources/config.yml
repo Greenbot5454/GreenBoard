@@ -1,0 +1,24 @@
+# GreenBoard Configuration
+
+# Worlds where the scoreboard should be active
+enabled-worlds:
+  - "SkywarsSpawn"
+
+# The title of the scoreboard
+title: "&a&lSKYWARS"
+
+# The lines of the scoreboard (max 15 lines)
+# Note: In 1.8.8, each line is limited to 16 characters per side.
+lines:
+  - "&7&m----------------"
+  - "&fPlayer: &a%player_name%"
+  - "&fKills: &a%swr_kills%"
+  - "&fWins: &a%swr_wins%"
+  - "&fDeaths: &c%swr_deaths%"
+  - "&fLevel: &e%swr_level%"
+  - ""
+  - "&eplay.myserver.com"
+  - "&7&m----------------"
+
+# Update interval in ticks (20 ticks = 1 second)
+update-interval: 20
